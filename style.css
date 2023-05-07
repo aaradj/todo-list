@@ -4,10 +4,12 @@
   box-sizing: border-box;
   outline: none;
 }
+
 .none-val::placeholder {
   color: rgba(248, 45, 45, 0.7);
   font-size: 2rem;
 }
+
 body {
   background-image: linear-gradient(#0f093f, rgb(1, 22, 60));
   color: white;
@@ -16,8 +18,11 @@ body {
 }
 header {
   font-size: 2rem;
+  /* color: #b8b5ff; */
   color: #e4fbff;
+  /* color: #fff; */
 }
+
 header,
 form {
   min-height: 20vh;
@@ -56,6 +61,7 @@ form button:active {
   justify-content: center;
   align-items: center;
 }
+
 .todo-list {
   min-width: 30%;
   list-style: none;
@@ -84,12 +90,14 @@ form button:active {
   box-shadow: 0 6px 6px 0 rgba(10, 10, 10, 0.7);
   transition: all ease-in 0.15s;
 }
+
 .filter-todo {
   padding: 1rem;
 }
 .todo li {
   flex: 1;
 }
+
 .trash-btn,
 .complete-btn {
   background: #f83a3a;
@@ -115,10 +123,12 @@ form button:active {
 .todo-item {
   padding: 0rem 0.5rem;
 }
+
 .fa-trash,
 .fa-check {
   pointer-events: none;
 }
+
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
@@ -130,6 +140,7 @@ select {
   border: 0 !important;
   background-image: none;
   border-radius: 10px;
+  /* color: #c4447a; */
   color: #990543;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
